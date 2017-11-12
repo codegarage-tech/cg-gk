@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Custom viewpager -->
+    <string-array name="custom_effects_viewpager">
+        <item>Standard</item>
+        <item>Tablet</item>
+        <item>CubeIn</item>
+        <item>CubeOut</item>
+        <item>FlipVertical</item>
+        <item>FlipHorizontal</item>
+        <item>Stack</item>
+        <item>ZoomIn</item>
+        <item>ZoomOut</item>
+        <item>RotateUp</item>
+        <item>RotateDown</item>
+        <item>Accordion</item>
+    </string-array>
+
+    <!-- SweetAlertDialog -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+
+    <!-- animated paging listview -->
+    <string name="loading">Loading&#8230;</string>
+
+    <!-- quick action -->
+    <string name="chart">Chart</string>
+    
+    <!-- volley error  -->
+    <string name="generic_server_down">Server down. Please try again!</string>
+    <string name="no_internet">No network. Please check your internet connection!</string>
+    <string name="generic_error">Internal Error. Please try again!</string>
+    
+    <!-- progress dialog -->
+    <string name="dialog_loading">Loading...</string>
+
+    <!-- base navigation drawer-->
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- symbol-->
+    <string name="symbol_pound">\u00a3</string>
+    <string name="symbol_euro">\u20ac</string>
+    <string name="symbol_bullet">\u2022</string>
+    <string name="symbol_and">&amp;</string>
+    <string name="symbol_less_than">&lt;</string>
+    <string name="symbol_greater_than">&gt;</string>
+    <string name="symbol_double_quot">&quot;</string>
+    <string name="symbol_single_quot">\&apos;</string>
+    <string name="symbol_doller_sing">&#36;</string>
+    <string name="symbol_percentage">&#37;</string>
+
+
+</resources>

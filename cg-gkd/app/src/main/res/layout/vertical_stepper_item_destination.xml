@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <AutoCompleteTextView
+        android:id="@+id/edt_destination_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_selector"
+        android:hint="Destination"
+        android:textColorHint="@color/textColorSecondary"
+        android:textColor="@color/textColorPrimary"
+        android:inputType="textMultiLine" />
+
+
+    <!--<EditText
+        android:id="@+id/edt_destination_address"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_selector"
+        android:hint="Destination"
+        android:textColorHint="@color/textColorSecondary"
+        android:textColor="@color/textColorPrimary"/>
+-->
+
+    <TextView
+        android:id="@+id/txt_source_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColorPrimary"
+        android:text="_ _ _"
+        android:textSize="@dimen/medium_font_size"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColorPrimary"
+        android:text="to"
+        android:textSize="@dimen/medium_font_size"/>
+
+
+    <TextView
+        android:id="@+id/txt_destination_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/textColorPrimary"
+        android:text="_ _ _"
+        android:textSize="@dimen/medium_font_size"/>
+
+</LinearLayout>

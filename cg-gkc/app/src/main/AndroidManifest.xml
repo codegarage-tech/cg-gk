@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    package="com.reversecoder.gk7.customer"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true"/>
+
+    <permission
+        android:name="com.reversecoder.gk7.customer.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature"/>
+
+    <uses-permission android:name="com.reversecoder.gk7.customer.permission.MAPS_RECEIVE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:name="com.customviews.library.application.CustomViewApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/CustomTheme">
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.DashboardCustomerNavigationDrawerActivity"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait">
+            <!-- <intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+                 <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.DashboardDriverNavigationDrawerActivity"
+            android:screenOrientation="portrait">
+            <!-- <intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+                 <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.LoginActivity"
+            android:screenOrientation="portrait">
+            <!-- <intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+                 <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.SplashActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.LocationSettingsActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+                 <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.RippleBackgroundActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.AreaActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                  <action android:name="android.intent.action.MAIN"/>
+                  <category android:name="android.intent.category.LAUNCHER"/>
+              </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.AddressActivity"
+            android:screenOrientation="portrait">
+            <!-- <intent-filter>
+                 <action android:name="android.intent.action.MAIN"/>
+                 <category android:name="android.intent.category.LAUNCHER"/>
+             </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.AddAddressActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.EditAddressActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.MessageDetailActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.VerticalStepperCallATaxiActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name="com.reversecoder.gk7.customer.activity.AcceptJobDetailActivity"
+            android:screenOrientation="portrait">
+            <!--<intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>-->
+        </activity>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key"/>
+
+        <service android:name="com.reversecoder.gk7.customer.service.CustomerService"/>
+        <service android:name="com.reversecoder.gk7.customer.service.DriverService"/>
+    </application>
+
+</manifest>

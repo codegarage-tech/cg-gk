@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">GK-7_DRIVER</string>
+    <string name="app_version">Version 1.0</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="alert_email">Please enter email.</string>
+    <string name="alert_valid_email">Please enter valid email.</string>
+    <string name="alert_empty_reply">Please enter your reply message.</string>
+    <string name="alert_password">Please enter password.</string>
+    <string name="alert_network_error">You have no internet connection!\nPlease connect to internet.</string>
+    <string name="alert_address">Please select address from address book.</string>
+    <string name="alert_address_type">Please select address type from tab.</string>
+    <string name="alert_address_from">Please enter address from.</string>
+    <string name="alert_destination">Please enter destination.</string>
+    <string name="user_type_customer">customer</string>
+    <string name="user_type_driver">driver</string>
+    <string name="txt_searching_taxi" formatted="false">Please wait, any taxi will pickup you shortly [%s]</string>
+    <string name="txt_status_header">Set your work status below to let your customers know about your current working state.</string>
+    <string name="txt_status_right_away">Right Away\nI am available to work and will reply to invitation right away.</string>
+    <string name="txt_status_not_looking">Not Looking\nI am not looking for a new opportunity at this time.</string>
+    <string name="txt_right_away">Right Away</string>
+    <string name="txt_not_looking">Not Looking</string>
+    <!-- google map key -->
+    <string name="map_debug_key_linux">AIzaSyDeuvoyS-Oe0gDQooWt7rzPWGoU2Ba16rw</string>
+    <string name="map_release_key_linux">AIzaSyByyUmCX_yHvkznDaeLLIoiO0yRrV06mQ4</string>
+    <string name="map_debug_key_windows">AIzaSyC5s4__F_UrQerH0Wo-mHm9RT8q_urvXiY</string>
+    <string name="map_release_key_windows">AIzaSyDzEiNZ7M0sQuWx9lbq44Mspu5rD3Hh3Tg</string>
+
+    <!-- location setting -->
+    <string name="latitude_label">Latitude</string>
+    <string name="longitude_label">Longitude</string>
+    <string name="last_update_time_label">Last location update time</string>
+    <string name="start_updates">Start updates</string>
+    <string name="stop_updates">Stop updates</string>
+    <string name="location_updated_message">Location updated</string>
+
+    <!--fancy button-->
+
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_xml_buttons">XmlButtons</string>
+    <string name="title_activity_program_buttons">ProgramButtons</string>
+
+    <string name="icon_user">&#xf007;</string>
+    <string name="icon_add">&#xf067;</string>
+    <string name="icon_readmore">&#xf178;</string>
+    <string name="icon_answer">&#xf095;</string>
+    <string name="icon_mute">&#xf131;</string>
+
+    <string name="icon_like">&#xf087;</string>
+    <string name="icon_share">&#xf064;</string>
+    <string name="icon_follow">&#xf005;</string>
+
+    <string name="icon_android">&#xf17b;</string>
+    <string name="icon_dropbox">&#xf16b;</string>
+    <string name="icon_soundcloud">&#xf1be;</string>
+    <string name="icon_spotify">&#xf1bc;</string>
+
+    <string name="icon_vine">&#xf1ca;</string>
+    <string name="icon_twitter">&#xf099;</string>
+    <string name="icon_tumbler">&#xf173;</string>
+    <string name="icon_stackoverflow">&#xf16c;</string>
+    <string name="icon_gplus">&#xf0d5;</string>
+    <string name="icon_facebook">&#xf09a;</string>
+
+    <string name="icon_entypo_facebook">&#59140;</string>
+
+    <string name="icon_behance">&#xf1b4;</string>
+    <string name="icon_dribble">&#xf17d;</string>
+
+    <string name="icon_send">&#xf1d8;</string>
+    <string name="icon_download">&#xf0ed;</string>
+    <string name="icon_upload">&#xf0ee;</string>
+    <string name="icon_config">&#xf085;</string>
+    <string name="icon_creditcard">&#xf09d;</string>
+    <string name="ghost_button_title">Ghost Button</string>
+    <string name="icon_envelope"></string>
+</resources>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_house_info"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_selector"
+        android:hint="House number/name"
+        android:textColorHint="@color/textColorSecondary"
+        android:textColor="@color/textColorPrimary"/>
+
+
+    <TextView
+        android:id="@+id/txt_house_address"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="House"
+        android:textColor="@color/textColorPrimary"
+        android:textSize="@dimen/medium_font_size"/>
+
+
+</LinearLayout>

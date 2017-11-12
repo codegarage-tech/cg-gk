@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edt_number_of_passenger"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/edittext_selector"
+        android:hint="Passenger numbers"
+        android:inputType="numberDecimal"
+        android:textColorHint="@color/textColorSecondary"
+        android:textColor="@color/textColorPrimary"/>
+
+    <!--<RadioGroup
+        android:id="@+id/rgroup_number_of_passenger"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/rbtn_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:text="4"
+            android:checked="true"
+            android:textColor="@color/textColorPrimary"
+             android:textSize="@dimen/medium_font_size"/>
+
+
+        <RadioButton
+            android:id="@+id/rbtn_more_than_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="More than 4"
+            android:textColor="@color/textColorPrimary"
+            android:textSize="@dimen/medium_font_size"/>
+
+    </RadioGroup>
+-->
+</LinearLayout>

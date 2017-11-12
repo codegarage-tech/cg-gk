@@ -1,0 +1,119 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorTeal</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="CustomTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorTeal</item>
+        <item name="android:textColorPrimary">@color/textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/textColorSecondary</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+        <item name="spinBars">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+    <!-- Android ultimate -->
+   <!-- <style name="CustomAppTheme" parent="@style/AppTheme.Base" />
+
+    <style name="AppTheme.Base" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <item name="android:textColorPrimary">#ff00bcd4</item>
+        <item name="android:textColorSecondary">#ff0097a7</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="drawerArrowStyle">@style/DrawerArrowStyle</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="DrawerArrowStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@android:color/white</item>
+        <item name="spinBars">true</item>
+    </style>
+
+    <style name="AppTheme.Blue" parent="@style/CustomAppTheme">
+        <item name="colorPrimary">#ff2196f3</item>
+        <item name="colorPrimaryDark">#ff1976d2</item>
+        <item name="colorAccent">#ffff4081</item>
+    </style>
+
+    <style name="AppTheme.Cyan" parent="@style/CustomAppTheme">
+        <item name="colorPrimary">#ff00bcd4</item>
+        <item name="colorPrimaryDark">#ff0097a7</item>
+        <item name="colorAccent">#ffff4081</item>
+    </style>
+
+    <style name="AppTheme.FABMenu" parent="@style/CustomAppTheme">
+        <item name="fab_colorPressed">?colorAccent</item>
+        <item name="fab_colorNormal">?colorPrimary</item>
+        <item name="fab_colorRipple">?colorAccent</item>
+        <item name="fab_shadow">true</item>
+    </style>
+
+    <style name="AppTheme.Green" parent="@style/CustomAppTheme">
+        <item name="colorPrimary">#ff4caf50</item>
+        <item name="colorPrimaryDark">#ff388e3c</item>
+        <item name="colorAccent">#ffffc107</item>
+    </style>
+
+    <style name="AppTheme.Orange" parent="@style/CustomAppTheme">
+        <item name="colorPrimary">#ffff9800</item>
+        <item name="colorPrimaryDark">#fff57c00</item>
+        <item name="colorAccent">#ffff9800</item>
+    </style>
+
+    <style name="AppTheme.Pink" parent="@style/CustomAppTheme">
+        <item name="colorPrimary">#ffe91e63</item>
+        <item name="colorPrimaryDark">#ffc2185b</item>
+        <item name="colorAccent">#fff06292</item>
+    </style>
+
+    <style name="AppTheme.Purple" parent="@style/CustomAppTheme">
+        <item name="colorPrimary">#ff512da8</item>
+        <item name="colorPrimaryDark">#ff512da8</item>
+        <item name="colorAccent">#fff06292</item>
+    </style>
+
+    <style name="AppTheme.Red" parent="@style/CustomAppTheme">
+        <item name="tabIndicatorColor">@color/white</item>
+        <item name="colorPrimary">#fff44336</item>
+        <item name="colorPrimaryDark">#ffd32f2f</item>
+        <item name="colorAccent">#ffff5252</item>
+    </style>
+
+    <style name="AppTheme.Teal" parent="@style/CustomAppTheme">
+        <item name="colorPrimary">#ff00796b</item>
+        <item name="colorPrimaryDark">#ff00796b</item>
+        <item name="colorAccent">#ffff9800</item>
+    </style>
+-->
+
+    <style name="MenuButtonsSmall">
+        <item name="fab_size">mini</item>
+        <item name="fab_colorNormal">#1565C0</item>
+        <item name="fab_colorPressed">#2272CD</item>
+        <item name="fab_colorRipple">#62B2FF</item>
+    </style>
+
+</resources>

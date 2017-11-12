@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialog_message"
+    android:layout_width="300dp"
+    android:layout_height="200dp"
+    android:background="@drawable/dialog_exit_app_background_shape"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".25"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/dialog_header_shape" >
+
+            <TextView
+                android:id="@+id/message_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text=""
+                android:textColor="@color/white"
+                android:textSize="@dimen/large_font_size"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_close"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignRight="@+id/message_title"
+                android:layout_centerInParent="true"
+                android:layout_marginRight="3dp"
+                android:background="@drawable/selector_dialog_exit_app_close_button" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_weight=".45"
+        android:gravity="top|center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/message_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text=""
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/medium_font_size" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".30"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+       <!-- <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="100dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/border_rectangle"
+            android:text="@string/dialog_ok"
+            android:textColor="@color/colorPrimaryDark"
+            android:textSize="@dimen/medium_font_size"
+            android:textStyle="bold"/>-->
+
+        <Button
+            android:id="@+id/btn_ok"
+            android:layout_width="110dp"
+            android:layout_height="45dp"
+            android:background="@drawable/btn_color_indigo"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="true"
+            android:text="@string/dialog_ok"
+            android:textColor="@color/white"
+            android:textSize="@dimen/small_font_size"/>
+    </LinearLayout>
+
+</LinearLayout>

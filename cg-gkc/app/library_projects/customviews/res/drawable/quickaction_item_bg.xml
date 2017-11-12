@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" android:dither="true">
+
+    <item android:drawable="@color/Off_white" android:state_window_focused="false"/>
+    <item android:drawable="@color/selected_item_row_bg_color" android:state_pressed="true"/>
+    <item android:drawable="@color/selected_item_row_bg_color" android:state_focused="true"/>
+    <item android:drawable="@color/Off_white"/>
+
+</selector>

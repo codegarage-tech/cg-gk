@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_job_status"
+            android:icon="@drawable/icon_job_status"
+            android:title="Job Status"/>
+        <item
+            android:id="@+id/nav_my_jobs"
+            android:icon="@drawable/icon_my_job"
+            android:title="My Jobs"/>
+        <item
+            android:id="@+id/nav_bid_jobs"
+            android:icon="@drawable/icon_bid_job"
+            android:title="Bid Jobs"/>
+        <item
+            android:id="@+id/nav_new_jobs"
+            android:icon="@drawable/icon_new_job"
+            android:title="New Jobs"/>
+        <item
+            android:id="@+id/nav_inbox"
+            android:icon="@drawable/icon_inbox"
+            android:title="Inbox"/>
+        <item
+            android:id="@+id/nav_outbox"
+            android:icon="@drawable/icon_outbox"
+            android:title="Outbox"/>
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_view_profile"
+                android:icon="@drawable/icon_profile"
+                android:title="View Profile"/>
+            <item
+                android:id="@+id/nav_working_status"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Working Status"/>
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/icon_logout"
+                android:title="Logout"/>
+        </menu>
+    </item>
+
+</menu>

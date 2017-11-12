@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/root"
+              xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:fancy="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="horizontal"
+              android:paddingLeft="24dp"
+              android:paddingRight="24dp">
+
+    <LinearLayout
+        android:id="@+id/icon_column"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/stepper_icon_number"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="top"
+            android:background="@drawable/vertical_stepper_circle_inactive"
+            android:gravity="center_vertical|center_horizontal"
+            android:text="1"
+            android:textAlignment="gravity"
+            android:textColor="@color/colorTextNumbers"/>
+
+        <ImageView
+            android:id="@+id/stepper_icon_finished"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="top"
+            android:adjustViewBounds="false"
+            android:background="@drawable/vertical_stepper_circle_active"
+            android:cropToPadding="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:padding="2dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/vertical_stepper_icon_check_24dp"/>
+
+        <ImageView
+            android:id="@+id/stepper_icon_error"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="top"
+            android:adjustViewBounds="false"
+            android:cropToPadding="false"
+            android:gravity="center_vertical|center_horizontal"
+            android:scaleType="fitXY"
+            android:src="@drawable/vertical_stepper_icon_error_24dp"/>
+
+        <View
+            android:id="@+id/connector_line"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="8dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="11dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp"
+            android:background="@color/colorConnector"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/content_column"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="40dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/stepper_title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:text="Name of Step"
+            android:textColor="@color/colorTextPrimary"
+            android:textSize="@dimen/medium_font_size"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/stepper_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Optional Description"
+            android:textColor="@color/colorTextTertiary"
+            android:textSize="@dimen/medium_font_size"/>
+
+        <LinearLayout
+            android:id="@+id/stepper_active_content_row"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="16dp">
+
+            <LinearLayout
+                android:id="@+id/step_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingBottom="4dp"
+                android:paddingTop="4dp"/>
+
+            <LinearLayout
+                android:id="@+id/button_panel"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginTop="8dp"
+                android:orientation="horizontal">
+
+                <!--<com.customviews.library.fancybuttons.FancyButton
+                    android:id="@+id/continue_button"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="-4dp"
+                    android:layout_marginStart="-4dp"
+                    android:singleLine="true"
+                    fancy:fb_borderColor="#FFFFFF"
+                    fancy:fb_borderWidth="1dp"
+                    fancy:fb_defaultColor="#ff5f69"
+                    fancy:fb_focusColor="#ff838b"
+                    fancy:fb_radius="30dp"
+                    fancy:fb_text="Create an account"
+                    fancy:fb_textColor="#FFFFFF" />-->
+
+
+                <Button
+                    android:id="@+id/continue_button"
+                    android:layout_width="110dp"
+                    android:layout_height="45dp"
+                    android:background="@drawable/btn_color_pink"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="Continue"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/small_font_size"/>
+
+                <Button
+                    android:id="@+id/cancel_button"
+                    android:layout_width="110dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginStart="4dp"
+                    android:background="@drawable/btn_borderless"
+                    android:padding="5dp"
+                    android:singleLine="true"
+                    android:text="Cancel"
+                    android:textColor="@android:color/tertiary_text_light"
+                    android:textSize="@dimen/small_font_size"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
